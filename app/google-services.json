@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "868888075238",
+    "project_id": "chuxipetcare",
+    "storage_bucket": "chuxipetcare.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868888075238:android:e06497713f7a8e2ae69427",
+        "android_client_info": {
+          "package_name": "com.example.chuxipetcare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMd2zuyYPRS4x2Ftg-KyP54Ty-DoWhN50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".ui.view.PetDetailActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="30dp">
+
+    <ImageView
+        android:id="@+id/ivPetDetailImage"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:contentDescription="Ảnh thú cưng"
+        android:scaleType="centerCrop"
+        android:background="#E0E0E0"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvPetDetailName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivPetDetailImage"
+        tools:text="Mèo Bông" />
+
+    <TextView
+        android:id="@+id/tvPetDetailSpecies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:drawableStart="@android:drawable/ic_menu_info_details"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPetDetailName"
+        tools:text="Giống loài: Mèo Anh Lông Dài" />
+
+    <TextView
+        android:id="@+id/tvPetDetailAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:drawableStart="@android:drawable/ic_menu_my_calendar"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPetDetailSpecies"
+        tools:text="Tuổi: 2" />
+
+    <TextView
+        android:id="@+id/tvPetDetailWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:drawableStart="@android:drawable/stat_sys_download"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPetDetailAge"
+        tools:text="Cân nặng: 5.5 kg" />
+
+    <TextView
+        android:id="@+id/tvPetDetailLastVaccine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:drawableStart="@android:drawable/ic_menu_add"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPetDetailWeight"
+        tools:text="Tiêm vaccine: 20/10/2023" />
+
+    <TextView
+        android:id="@+id/tvPetDetailLastDeworming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:drawableStart="@android:drawable/ic_delete"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPetDetailLastVaccine"
+        tools:text="Tẩy giun: 01/01/2024" />
+
+    <TextView
+        android:id="@+id/tvTitleHealthNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Ghi chú sức khỏe:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPetDetailLastDeworming" />
+
+    <TextView
+        android:id="@+id/tvPetDetailHealthNotes"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTitleHealthNotes"
+        tools:text="Khỏe mạnh, ăn uống tốt, thích chạy nhảy và chơi với bóng len. Thỉnh thoảng bị nôn ra lông." />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
