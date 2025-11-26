@@ -25,7 +25,11 @@
 ## 📸 Screenshots
 | Home Screen | Pet Detail | AI Chatbot |
 |:---:|:---:|:---:|
-| <img src="URL_ANH_HOME" width="200"> | <img src="URL_ANH_DETAIL" width="200"> | <img src="URL_ANH_CHAT" width="200"> |
+| <img width="289" height="642" alt="Image" src="https://github.com/user-attachments/assets/a6c26355-10c8-43b1-8a45-6b24574a2ee2" />
+<img width="292" height="634" alt="Image" src="https://github.com/user-attachments/assets/3e57b768-2e85-487a-8b6d-f3e7a920ab8d" />
+<img width="302" height="640" alt="Image" src="https://github.com/user-attachments/assets/cb242237-e4ad-4c68-90a5-fe83dbfa35dc" />
+<img width="291" height="645" alt="Image" src="https://github.com/user-attachments/assets/2ca11af4-70a7-49a4-a971-a8281a17dc2a" />
+<img width="302" height="639" alt="Image" src="https://github.com/user-attachments/assets/269a535d-6e44-46d5-a6f4-39dc1d4d15ee" /> |
 
 ## 🚀 How to Run
 1.  Clone this repository:
