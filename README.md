@@ -32,7 +32,7 @@
 ## 🚀 How to Run
 1.  Clone this repository:
     ```bash
-    git clone [https://github.com/USERNAME/ChuXiPetCare.git](https://github.com/USERNAME/ChuXiPetCare.git)
+    git clone https://github.com/quyxhhqcb1708/ChuXiPetCare
     ```
 2.  Open the project in **Android Studio**.
 3.  Sync Gradle to download dependencies.
