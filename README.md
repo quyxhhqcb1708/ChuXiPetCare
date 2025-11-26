@@ -23,8 +23,6 @@
 * **UI:** XML, RecyclerView, CardView
 
 ## 📸 Screenshots
-| Home Screen | Pet Detail | AI Chatbot |
-|:---:|:---:|:---:|
 | <img width="289" height="642" alt="Image" src="https://github.com/user-attachments/assets/a6c26355-10c8-43b1-8a45-6b24574a2ee2" />
 <img width="292" height="634" alt="Image" src="https://github.com/user-attachments/assets/3e57b768-2e85-487a-8b6d-f3e7a920ab8d" />
 <img width="302" height="640" alt="Image" src="https://github.com/user-attachments/assets/cb242237-e4ad-4c68-90a5-fe83dbfa35dc" />
